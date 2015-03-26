@@ -3,14 +3,18 @@
     "name": "maws1",
     "roles": [
       "web",
-      "zabbix-server"
+      "zabbix-server",
+      "zabbix-agent",
+      "postfix"
     ]
   },
   {
     "name": "maws2",
     "roles": [
       "web",
-      "zabbix-server"
+      "zabbix-server",
+      "zabbix-agent",
+      "postfix"
     ]
   }
 ]

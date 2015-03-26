@@ -10,4 +10,5 @@ RSpec.configure do |c|
 
   set :host, c.host
   set :ssh_options, options
+  set :request_pty, true
 end
