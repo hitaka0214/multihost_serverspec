@@ -1,0 +1,16 @@
+[
+  {
+    "name": "maws1",
+    "roles": [
+      "web",
+      "zabbix-server"
+    ]
+  },
+  {
+    "name": "maws2",
+    "roles": [
+      "web",
+      "zabbix-server"
+    ]
+  }
+]
