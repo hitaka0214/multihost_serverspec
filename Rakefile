@@ -3,7 +3,7 @@ require 'rspec/core/rake_task'
 require 'json'
  
 desc "Run serverspec to all hosts"
-task :spec => 'serverspec:all'
+task :spec => 'spec:all'
 task :default => :spec
  
 namespace :spec do
