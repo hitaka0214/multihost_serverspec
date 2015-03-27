@@ -5,8 +5,8 @@ describe package('zabbix-server') do
 end
 
 describe service('zabbix-server') do
-  it { should be_enabled }
-  it { should be_running }
+  it { should_not be_enabled }
+  it { should     be_running }
 end
 
 describe port(10051) do

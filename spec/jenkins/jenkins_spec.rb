@@ -5,8 +5,8 @@ describe package('jenkins') do
 end
 
 describe service('jenkins') do
-  it { should be_enabled }
-  it { should be_running }
+  it { should_not be_enabled }
+  it { should     be_running }
 end
 
 describe port(8080) do
