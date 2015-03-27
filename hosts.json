@@ -7,7 +7,13 @@
       "zabbix-agent",
       "postfix",
       "jenkins"
-    ]
+    ],
+    "web": {
+      "package": "apache2",
+      "port": 80,
+      "service": "on",
+      "default": "on"
+    }
   },
   {
     "name": "maws2",
